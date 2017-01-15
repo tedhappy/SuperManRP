@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main_backcolor">#D63433</color>
+    <color name="main_bottom_shapecolor_normal">#F4C106</color>
+    <color name="main_bottom_shapecolor_pressed">#9c8840</color>
+    <color name="main_bottom_shapecolor_stroke">#595857</color>
+    <color name="alpha">#00ffffff</color>
+    <color name="grey">#545b5b5b</color>
+
+</resources>

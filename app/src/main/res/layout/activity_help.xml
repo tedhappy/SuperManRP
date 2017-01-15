@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_backcolor"
+        >
+
+        <TextView
+            android:id="@+id/aboutme_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_toRightOf="@+id/preference_back"
+            android:elegantTextHeight="false"
+            android:gravity="left|center_vertical|center_horizontal"
+            android:text="红包攻略"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            />
+
+        <ImageView
+            android:id="@+id/preference_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/aboutme_bar"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:clickable="true"
+            android:onClick="performBack"
+            android:padding="10dp"
+            android:src="@drawable/ic_back"/>
+
+    </RelativeLayout>
+
+    <!--下面是详细内容-->
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:padding="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <!--存在的问题-->
+           <TextView
+               android:text="@string/problems_title"
+               style="@style/problems_title"/>
+
+           <TextView
+               android:text="@string/problems_content1"
+               style="@style/help_content"/>
+
+           <TextView
+               android:layout_marginTop="20dp"
+               android:layout_marginBottom="20dp"
+               android:text="@string/problems_content2"
+               style="@style/help_content"/>
+
+            <!--使用帮助-->
+           <TextView
+               android:text="使用步骤"
+               style="@style/help_title"/>
+
+           <TextView
+               android:text="@string/help_one"
+               style="@style/help_content"/>
+
+           <ImageView
+               android:src="@drawable/help1"
+               android:layout_width="wrap_content"
+               android:layout_marginBottom="10dp"
+               android:layout_height="wrap_content"/>
+           <ImageView
+               android:src="@drawable/help2"
+               android:layout_width="wrap_content"
+               android:layout_marginBottom="10dp"
+               android:layout_height="wrap_content"/>
+           <ImageView
+               android:src="@drawable/help3"
+               android:layout_width="wrap_content"
+               android:layout_marginBottom="10dp"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_marginTop="30dp"
+               android:text="微信客户端注意事项"
+               style="@style/help_title"/>
+
+           <TextView
+               android:text="@string/help_two"
+               style="@style/help_content"/>
+
+           <ImageView
+               android:layout_marginBottom="10dp"
+               android:src="@drawable/wechat_setting_a"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+           <ImageView
+               android:layout_marginBottom="10dp"
+               android:src="@drawable/wechat_setting_b"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_marginTop="20dp"
+               android:text="@string/help_three"
+               style="@style/help_content"/>
+
+           <ImageView
+               android:layout_marginBottom="10dp"
+               android:src="@drawable/wechat_setting_c"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+           <ImageView
+               android:layout_marginBottom="10dp"
+               android:src="@drawable/wechat_setting_d"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_marginTop="20dp"
+               android:text="@string/help_four"
+               style="@style/help_content"/>
+
+           <ImageView
+               android:src="@drawable/help4"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+
+           <TextView
+               android:layout_marginTop="20dp"
+               android:text="@string/help_five"
+               style="@style/help_content"/>
+
+
+       </LinearLayout>
+
+   </ScrollView>
+
+</LinearLayout>

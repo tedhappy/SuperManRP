@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_backcolor"
+        >
+
+        <TextView
+            android:id="@+id/aboutme_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_toRightOf="@+id/preference_back"
+            android:elegantTextHeight="false"
+            android:gravity="left|center_vertical|center_horizontal"
+            android:text="关于我"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            />
+
+        <ImageView
+            android:id="@+id/preference_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/aboutme_bar"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:clickable="true"
+            android:onClick="performBack"
+            android:padding="10dp"
+            android:src="@drawable/ic_back"/>
+
+    </RelativeLayout>
+
+    <!--下面是关于我主体内容-->
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/tv_about_me"
+            android:layout_margin="20dp"
+            android:gravity="center_vertical"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:text="@string/about_me"/>
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/tv_about_me"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/contact_me"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

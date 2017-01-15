@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                android:oneshot="false">
+    <item
+        android:drawable="@drawable/hongbao1"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/hongbao2"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/hongbao3"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/hongbao4"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/hongbao5"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/hongbao6"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/hongbao7"
+        android:duration="150"/>
+</animation-list>

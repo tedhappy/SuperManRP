@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">超人红包</string>
+    <string name="preference">抢红包设置</string>
+    <string name="pref_watch_exclude_words_summary">不拆开包含这些文字的红包(空格间隔)</string>
+    <string name="app_description">开启辅助功能是使用超人红包的功能所需，会帮助用户自动抢红包 \n\n提示：开启时，会受到系统的例行警告，超人红包不会进行侵害用户利益的行为，您可以放心开启。</string>
+    <string name="agreement_title">必看！别着急点同意</string>
+    <string name="agreement_message">1. 本软件完全模拟人工操作，抢红包速度取决于你手机的性能与网络。\n2. 本软件为个人开发，请勿用作商业用途。\n 3. 进入后请先查看【红包攻略】进行相关设置。\n4. 一切因使用超人红包造成的任何后果，作者概不负责！</string>
+    <string name="open_service_title">需要开启辅助服务才能正常使用</string>
+    <string name="open_service_button">打开辅助服务</string>
+    <string name="about_me">超人红包软件是王浩宇个人开发，请勿用作商业用途。\n使用过程中的问题欢迎联系作者，作者将不断修改完善。</string>
+    <string name="contact_me">QQ | weChat: 296389990 \nE-mail: wanghaoyuhappy@163.com</string>
+    <string name="help_one">1. 打开超人红包，在弹出窗口中进入辅助功能 → 超人红包，点击开启。完成后回到界面有“正在努力抢红包...”字样则设置成功。</string>
+    <string name="help_two">1. 打开微信，在“设置--新消息提醒”里，前两个选项“接受新消息通知”和“通知显示消息详情”按钮开启。（重要）</string>
+    <string name="help_three">2. 在任意一个微信群组，点击右上角，打开“聊天消息”模块，下拉找到“消息免打扰”选项，勾选关闭。</string>
+    <string name="help_four">3. 超人红包设置中开启相应的选项（默认开启）</string>
+    <string name="help_five">4. 关闭手机锁屏</string>
+    <string name="problems_title">为什么辅助功能会自动关闭，导致不抢红包？</string>
+    <string name="problems_content1">原因：某些系统内置了省电管理，性能优化清理等。 或者你安装了手机管家，导致锁屏后会自动清理。</string>
+    <string name="problems_content2">通用解决方案：\n将超人红包设置为后台保护（或者白名单等，因手机型号不同而不同），具体操作可以百度“某某手机自动关闭应用软件”</string>
+
+</resources>
